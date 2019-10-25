@@ -18,7 +18,7 @@ rails generate graphql:install
 
 After running grapql install generator, replace `app/graphql/types/query_type.rb` code with this:
 
-```rb
+```diff
 module Types
   class QueryType < Types::BaseObject
     # Add root-level fields here.
